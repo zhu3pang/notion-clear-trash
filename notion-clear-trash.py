@@ -43,7 +43,8 @@ def delete_permanently(client, block_ids):
 
 
 if __name__== "__main__":
-    token = input('Please enter your auth token: ')
+    # token = input('Please enter your auth token: ')
+    token = "v02%3Auser_token_or_cookies%3AFw75nUz_-EcgkIO55pwNloBqspXexkRMaqOFKGAbNkU56lAiByVcA3wYwzFnX5_YZ_xNRcIG5y7W02T79Vci6gZVD3aYJLxPAwb2NlkbqEIjfKYLa9i3dhEzIqnnAdj0gpG3"
     client = NotionClient(token_v2=token)
 
     block_ids = get_trash(client)
